@@ -33,7 +33,6 @@ function throttle(fn, limit) {
 		}
 	}
 }
-
 //函数节流 适用场景：scroll的监听事件 drag的监听事件
 function throttle(fn, threshold, scope) {
 	var last,endTask
